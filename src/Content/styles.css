@@ -1,1 +1,11 @@
-﻿
+﻿.container {
+    border: 4px solid;
+}
+
+header {
+    margin: 18px;
+}
+
+.thumb {
+	margin-bottom: 30px;
+}
