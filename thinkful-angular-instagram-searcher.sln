@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", "http://localhost:10192", "{65CAAC20-25C0-4105-9AD3-02493065B62D}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "thinkful-angular-instagram-searcher", "http://localhost:35292", "{BD59ED6F-AED3-4BD3-9CD8-E88EF6581C10}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_10192"
-		Debug.AspNetCompiler.PhysicalPath = "..\src\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10192\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_35292"
+		Debug.AspNetCompiler.PhysicalPath = "..\thinkful-angular-instagram-searcher\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_35292\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_10192"
-		Release.AspNetCompiler.PhysicalPath = "..\src\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10192\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_35292"
+		Release.AspNetCompiler.PhysicalPath = "..\thinkful-angular-instagram-searcher\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_35292\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\src\"
+		SlnRelativePath = "..\thinkful-angular-instagram-searcher\"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65CAAC20-25C0-4105-9AD3-02493065B62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65CAAC20-25C0-4105-9AD3-02493065B62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD59ED6F-AED3-4BD3-9CD8-E88EF6581C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD59ED6F-AED3-4BD3-9CD8-E88EF6581C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
