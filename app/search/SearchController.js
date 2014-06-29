@@ -4,12 +4,14 @@
     angular.module('app')
         .controller("SearchController", function ($scope, $http, growl) {
             $scope.search = function () {
+                $scope.submitted = true;
                 if (!$scope.searchForm.$valid) {
                     return;
                 }
 
                 var tag = $scope.searchField;
                 $scope.images = null;
+                $scope.submitted = false;
                 $scope.searchForm.$setPristine();
                 $scope.searchField = "";
 

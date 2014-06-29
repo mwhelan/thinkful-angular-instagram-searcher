@@ -4,6 +4,7 @@
     right: 10px;
     float: right;
     width: 250px;
+    z-index: 1;
 }
 
 .growl-item.ng-enter,

@@ -23,15 +23,15 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4">
                     <form class="form-horizontal" role="form" name="searchForm" novalidate ng-submit="search()">
-                        <div class="form-group" ng-class="{'has-error': searchForm.searchField.$invalid && !searchForm.searchField.$pristine}">
+                        <div class="form-group" ng-class="{'has-error': searchForm.searchField.$invalid && (!searchForm.searchField.$pristine || submitted)}">
                             <div class="col-xs-10">
                                 <input name="searchField" type="text" class="form-control"
                                        ng-model="searchField" required ng-pattern="/^[a-zA-Z0-9-_]+$/"
                                        placeholder="Enter a tag to search for">
-                                <p ng-show="searchForm.searchField.$invalid && !searchForm.searchField.$pristine" class="error-message">A single word with letters and numbers only.</p>                                
+                                <p ng-show="searchForm.searchField.$invalid && (!searchForm.searchField.$pristine || submitted)" class="error-message">A single word with letters and numbers only.</p>
                             </div>
                             <div class="col-xs-2">
-                                <button type="submit" class="btn btn-success">Submit</button>                                
+                                <button type="submit" class="btn btn-success">Submit</button>
                             </div>
                         </div>
                     </form>
